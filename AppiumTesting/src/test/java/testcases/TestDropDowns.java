@@ -26,7 +26,7 @@ public static AppiumDriver driver;
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12.1");
 		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "safari");
 
-		
+		// New test comment.
 		driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		
 		driver.manage().timeouts().implicitlyWait(15L, TimeUnit.SECONDS);
